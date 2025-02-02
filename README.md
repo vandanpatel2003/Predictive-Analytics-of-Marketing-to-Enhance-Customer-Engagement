@@ -1,4 +1,4 @@
-# Predict Customer Personality to Boost Marketing Campaign using Machine Learning
+# Predictive analytics for enhanced customer engagement using Machine Learning
 
 <p align="center">
   <img src="https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/a2f3b4bf-9bef-41e7-8826-cdeafbf96c12" alt="Image" />
