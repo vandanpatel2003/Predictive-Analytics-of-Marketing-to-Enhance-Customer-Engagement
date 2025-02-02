@@ -1,12 +1,6 @@
 # Predictive analytics for enhanced customer engagement using Machine Learning
 
-<p align="center">
-  <img src="https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/a2f3b4bf-9bef-41e7-8826-cdeafbf96c12" alt="Image" />
-</p>
-
-
 This project aims to revolutionize marketing campaigns by harnessing the power of machine learning to predict and understand customer personalities. By analyzing various data sources and employing advanced algorithms, we will develop a model that categorizes customers into distinct personality types, enabling businesses to tailor their marketing strategies to individual preferences and behavior. The project will not only increase the effectiveness of marketing efforts but also enhance customer engagement, satisfaction, and ultimately, business success.
-
 
 
 ## **Business Overview**
@@ -132,7 +126,7 @@ for this step we gonna investigate more about our data pattern from the distribu
 
   * **Histogram Visualization**
 
-![image](https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/05ecd5a8-e42b-4e67-8ad2-2a3dd54f7ad8)
+![image](https://github.com/vandanpatel2003/Predictive-Analytics-of-Marketing-to-Enhance-Customer-Engagement/blob/main/Assets/285022953-05ecd5a8-e42b-4e67-8ad2-2a3dd54f7ad8.png)
 
 
   * 📊 **Summary of Distribution Characteristics**
@@ -173,7 +167,7 @@ for this step we gonna investigate more about our data pattern from the distribu
 
    * **Boxplot Visualization**
 
-![image](https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/4f826b1f-76aa-4271-9a80-27f919473654)
+![image](https://github.com/vandanpatel2003/Predictive-Analytics-of-Marketing-to-Enhance-Customer-Engagement/blob/main/Assets/285125118-4f826b1f-76aa-4271-9a80-27f919473654.png)
 
 
   * **Summary of Outlier Characteristics**
@@ -193,7 +187,7 @@ Overall, the dataset contains outliers in income, spending on various product ca
 
 ### **Biavariate EDA for Numeric**
 
-![image](https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/df3f41ce-5a5e-445d-83da-9ecb61553b16)
+![image](https://github.com/vandanpatel2003/Predictive-Analytics-of-Marketing-to-Enhance-Customer-Engagement/blob/main/Assets/285125833-df3f41ce-5a5e-445d-83da-9ecb61553b16.png)
 
    
 **Key Correlations for Conversion Rate Analysis**
@@ -268,7 +262,7 @@ In the modeling phase, we delve into understanding the inherent structure of the
 
 **elbow Plot Analysis:**
 
-![image](https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/efd5c3fc-5b55-4eae-99f9-51a133bbdd36)
+![image](https://github.com/vandanpatel2003/Predictive-Analytics-of-Marketing-to-Enhance-Customer-Engagement/blob/main/Assets/285130933-efd5c3fc-5b55-4eae-99f9-51a133bbdd36.png)
 
 * In our quest for the ideal number of clusters, we conducted an elbow plot analysis.
 * The plot revealed a distinct "elbow point" at **K=4**, suggesting that four clusters were a suitable choice for our customer segmentation.
@@ -276,7 +270,7 @@ In the modeling phase, we delve into understanding the inherent structure of the
 
 **Silhoutte Score Analysis:**
 
-![image](https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/c8b5095d-a5fe-4871-9a23-74824303a58f)
+![image](https://github.com/vandanpatel2003/Predictive-Analytics-of-Marketing-to-Enhance-Customer-Engagement/blob/main/Assets/285131598-c8b5095d-a5fe-4871-9a23-74824303a58f.png)
 
 As we examined the Elbow Method plot, we observed a significant "elbow" forming at 4 clusters. This suggests that 4 clusters is an appropriate choice, balancing complexity and meaningful segmentation. 
 Further validating our choice, the Silhouette Score for our clustering was an impressive 0.62, reinforcing the quality and separation of the clusters we've created. 
@@ -302,7 +296,7 @@ By mapping clusters to these personas, we aim to breathe life into our data, tra
 
 ### **Barplot for each Cluster Total**
 
-![image](https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/67309bc8-e4e9-4803-93b7-4825d3bb0a1f)
+![image](https://github.com/vandanpatel2003/Predictive-Analytics-of-Marketing-to-Enhance-Customer-Engagement/blob/main/Assets/285132819-67309bc8-e4e9-4803-93b7-4825d3bb0a1f.png)
 
 **Analysis of Customer Clusters**
 
@@ -322,7 +316,7 @@ Through these count plots, we gain a panoramic view of our customer landscape, d
 
 ### **Distribution of Each Cluster**
 
-![image](https://github.com/riyouuyt/Predict-Customer-Personality-to-Boost-Marketing-Campaign-using-Machine-Learning/assets/122600889/c3d896d8-70ad-40f7-bd2b-22359ec6676d)
+![image](https://github.com/vandanpatel2003/Predictive-Analytics-of-Marketing-to-Enhance-Customer-Engagement/blob/main/Assets/285133264-c3d896d8-70ad-40f7-bd2b-22359ec6676d.png)
 
 Cluster Summary Based on The Plot
 
